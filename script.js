@@ -53,7 +53,7 @@ function getCompRes(move){
     //show moves
     let moves = document.querySelector(".moves");
     moves.innerHTML = `<pre>Moves: your move     computer's move <br>
-       <img src="../images/${pmove}-emoji.png" class="simg">        <img src="../images/${cmove}-emoji.png" class="simg"> </pre>`;
+       <img src="images/${pmove}-emoji.png" class="simg">        <img src="images/${cmove}-emoji.png" class="simg"> </pre>`;
 }
 
 function resetScore(){
